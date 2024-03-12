@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAV STYLE------------- */
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: yellow;
+    border: dashed 1px black;
+    width: 60%;
+}
+
+nav div{
+    border: dashed 1px black;
+    display: flex;
+    align-items: center;
+}
+
+nav div:first-child, nav :nth-child(3){
+    width: 25%;
+}
+
+nav div:nth-child(3){
+    justify-content: end;  
+}
+
+nav div:nth-child(2){
+    justify-content: center; 
+    width: 50%;
+}
+
+/*  END NAV STYLE----------------------------- */
+
+/* PRIMA SECTION STYLE-------------------------- */
+
+section {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.flex-container{
+    width: 60rem;
+    min-height: 30rem;
+    display: flex;
+    border: dashed 1px black;
+}
+
+.blue *{
+    background-color: rgb(255, 192, 245);
+    width: calc(100% - 20rem);
+    height: 30rem;
+    border: dashed 1px black;
+}
+
+.blue{
+    background-color: blue;
+
+}
+/*  FINE PRIMA SECTION STYLE-------------------------------- */
+
+/* SECONDA SECTION STYLE----------------------------------- */
+
+section:nth-child(3) *{
+    /* width: calc(100% - 20rem); */
+    height: 30rem;
+    border: dashed 1px black;
+}
+
+.blue-container{
+    background-color: blue;
+    width: 60%;
+
+}
+
+.pink-container{
+    background-color: pink;
+    width: 40%;
+}
+
+
+
+/* FINE SECONDA SEZIONE STYLE------------------------------- */
+
+/* TERZA SECTION STYLE----------------------------------- */
+
+.grey{
+    background-color: grey;
+}
+
+.grey .flex-container{
+    flex-direction: row-reverse;
+}
+
+/* FINE TERZA SEZIONE STYLE---------------------- */
+
+.green-container{
+    background-color: green;
+    width: 100%;
+    height: 35rem;
+}
+
+/*  QUINTA SEZIONE STYLE--------------------------------- */
+
+.dark-grey{
+    background-color: rgb(48, 45, 45);
+
+}
+
+.pinker-container{
+    width: 50%;
+    background-color: rgb(207, 109, 125);
+    border: dashed 1px black;
+
+}
+
+.light-blue-container{
+    background-color: lightblue;
+    width: calc(50% / 4);
+    border: dashed 1px white;
+}
+
+/* FOOTER STYLE------------------------------------------- */
+footer{
+    background-color: rgb(48, 45, 45);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.aqua{
+    background-color: aqua;
+    width: 60%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aqua *{
+    background-color: pink;
+    border: dashed 1px black;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
